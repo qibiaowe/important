@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container::after{
+    clear: both;
+}
+.container .info{
+    float: left;
+    width: 70%;
+    border-right: 1px solid black;
+    clear: both;
+
+}
+.img{
+    margin-left: 700px;
+}
+.img img{
+    width: 20%;
+    height: 300px;
+}
